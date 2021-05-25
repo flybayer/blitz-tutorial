@@ -2,8 +2,9 @@
   "name": "my-blitz-app",
   "version": "1.0.0",
   "scripts": {
-    "dev": "blitz dev",
+    "start:production": "blitz start --port $PORT",
     "build": "blitz build",
+    "dev": "blitz dev",
     "start": "blitz start",
     "studio": "blitz prisma studio",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
